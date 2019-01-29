@@ -1,0 +1,10 @@
+size(400,400);
+colorMode(HSB);
+int s=100;
+fill(100,s,100);
+translate(width/2,height/2);
+rotate(PI/4);
+ellipse(0,0,100,100);
+s+=50;
+fill(100,s,100);
+ellipse(25,0,50,50);
